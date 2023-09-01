@@ -14,5 +14,7 @@ public class App {
         float porc = l.nextFloat();
         float precoVenda = ((porc / 100)+1) * precoCusto;
         System.out.println("Preco venda: " + precoVenda);
+        Pessoa p = new Pessoa();
+        
     }
 }
